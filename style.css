@@ -269,3 +269,7 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+a {
+  color: #1a73e8; 
+  text-decoration: underline;
+}
