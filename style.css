@@ -1,4 +1,4 @@
-/* ===== Reset and Base Styles ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +13,16 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ===== Variables ===== */
+
 :root {
-  --primary-color: #001f4d; /* Navy Blue */
+  --primary-color: #001f4d; 
   --text-dark: #1c1c1c;
   --text-light: #555;
   --section-bg: #ffffff;
   --border-radius: 8px;
 }
 
-/* ===== Navbar ===== */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -137,7 +137,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* ===== Section Titles ===== */
+
 .section-title {
   text-align: center;
   font-size: 2rem;
@@ -145,7 +145,7 @@ body {
   color: var(--primary-color);
 }
 
-/* ===== About Section ===== */
+
 .about-section {
   background-color: var(--section-bg);
   padding: 4rem 2rem;
@@ -176,7 +176,7 @@ body {
   margin-bottom: 1.2rem;
 }
 
-/* ===== Skills Section ===== */
+
 .skills-section {
   padding: 4rem 2rem;
   background-color: #f0f4f9;
@@ -195,7 +195,7 @@ body {
   font-size: 3rem;
 }
 
-/* ===== Projects Section ===== */
+
 .projects-section {
   background-color: var(--section-bg);
   padding: 4rem 2rem;
@@ -257,7 +257,7 @@ body {
   color: var(--primary-color);
 }
 
-/* ===== Footer ===== */
+
 footer {
   text-align: center;
   padding: 2rem;
